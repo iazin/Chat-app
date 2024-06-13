@@ -1,0 +1,117 @@
+.dark-mode {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.dark-mode a,
+.dark-mode .message-header,
+.dark-mode .message-content,
+.dark-mode .error-message,
+.dark-mode p,
+.dark-mode label,
+.dark-mode i,
+.dark-mode h1 {
+    color: #cccccc;
+}
+
+.dark-mode .message-box,
+.dark-mode .form-shadow,
+.dark-mode .navbar,
+.dark-mode .navbar-custom,
+.dark-mode .card,
+.dark-mode .nav-link,
+.dark-mode .navbar-brand,
+.dark-mode .navbar-collapse,
+.dark-mode .navbar-custom .navbar-brand,
+.dark-mode .navbar-custom .nav-link,
+.dark-mode span,
+.dark-mode input,
+.dark-mode li,
+.dark-mode .form-control {
+    background-color: #484e53;
+    color: #cccccc;
+}
+
+.dark-mode .message-box {
+    border-left: 5px solid #6c757d;
+}
+
+.dark-mode .form-shadow {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .navbar-custom {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .btn-primary:hover,
+.dark-mode .btn-success:hover,
+.btn-animate:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.navbar-custom .nav-link:hover,
+.dark-mode .navbar-custom .nav-link:hover {
+    text-decoration: none;
+}
+
+.message-box {
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message-header {
+    font-size: 16px;
+    color: #333;
+}
+
+.message-content {
+    font-size: 14px;
+    color: #555;
+}
+
+.message-actions {
+    margin-top: 10px;
+}
+
+.form-shadow {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 1rem;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+    transform: scale(1.05);
+}
+
+.navbar-custom {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba
+}
