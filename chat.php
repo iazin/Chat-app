@@ -57,7 +57,7 @@ $messages = $appFunctions->getMessagesByRoom($room_id);
     </nav>
 
     <div class="container mt-5">
-        <h1><i class="bi bi-chat-dots"></i> Chat Room <?php echo $room_id;?></h1>
+        <h1><i class="bi bi-chat-dots"></i> Chat Room</h1>
         <div id="messages" class="mb-3">
         </div>
         <form method="post" action="chat.php?room_id=<?php echo $room_id; ?>">
