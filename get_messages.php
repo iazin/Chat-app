@@ -22,8 +22,8 @@ foreach ($messages as $message) {
     echo '<div class="message-content">' . htmlspecialchars($message['message']) . '</div>';
     if ($_SESSION['user_id'] == $message['user_id']) {
         echo '<div class="message-actions">';
-        echo '<button class="btn btn-outline-primary btn-sm" onclick="editMessage(' . $message['id'] . ')">Редактировать</button> ';
-        echo '<button class="btn btn-outline-danger btn-sm" onclick="deleteMessage(' . $message['id'] . ')">Удалить</button>';
+        echo '<button class="btn btn-outline-primary btn-sm" onclick="editMessage(' . $message['id'] . ')">Edit</button> ';
+        echo '<button class="btn btn-outline-danger btn-sm" onclick="deleteMessage(' . $message['id'] . ')">Delete</button>';
         echo '</div>';
     }
     echo '</div>';
